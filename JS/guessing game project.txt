@@ -1,0 +1,24 @@
+JS Introduction Final Project
+
+How it works:
+- The computer thinks of a number in the range (1-100)
+- The player has to guess what it is
+- The computer tells the player if answer is right or wrong
+- When the game is over, the player is told how many times they guessed
+
+What you need:
+- A prompt everytime the page is loaded
+- A form within that message displaying a message intended to get a number from 1-100
+- A prompt which will only show when the incorrect number is answered
+- A prompt which will only show when the correct number is answered
+
+Steps:
+- Create a function to create a prompt in the browser
+- Within that function, write a decision to check the following:
+	> If answer to the prompt is greater than or equal to 0 but less than 95
+		**A prompt should appear stating that you should answer again.
+	> If answer to the prompt is greater than or equal to 95 but less than 100.
+		**A prompt should appear stating that you should answer again.
+	> If answer to the prompt is greater than or equal to 95 but less than 97
+		**Write to the browser: "Kaya FC is founded in the year 1996."
+
